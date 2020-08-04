@@ -1,0 +1,246 @@
+/* logo style */
+.logo {
+  color: #78C3FB;
+  font-size: 50px;
+  font-family: Comic Sans MS;
+  text-align: center;
+  margin: 0;
+  line-height: 58px;
+}
+
+/* heading 3 style */
+header h3 {
+  color: #A807B0;
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* navigation */
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  display: flex;
+  flex-direction: row;
+}
+
+header nav ul li a {
+  margin: 0 40px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+/* image style */
+img {
+  width: 50%;
+  border-radius: 8px;
+  border: 10px solid #A807B0;
+  margin: 10px;
+}
+
+/* heading 1 style */
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #16E0BD;
+  line-height: 42px;
+}
+
+/* body style */
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #05204A;
+  line-height: 25px;
+}
+
+/* paragraph style */
+p {
+  color: #EB4B98;
+  font-size: 16px;
+}
+
+/* heading 2 style */
+h2 {
+  text-align: center;
+  color: #16E0BD;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* list style */
+li {
+  color: #EB4B98;
+  padding: 6px 0;
+  list-style: none;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #EB4B98;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* link style */
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:link {
+  color: #78C3FB;
+}
+
+a:visited {
+  color: #1B2CC1;
+}
+
+a:hover {
+  color: #16E0BD;
+}
+
+a:active {
+  color: #EB4B98;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* section style */
+section {
+  padding: 20px 20%;
+  margin: 10px 0;
+}
+
+/* Groups & Items */
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+/* footer style */
+footer {
+  text-align: center;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #A807B0;
+  padding: 40px,
+}
+
+footer p {
+  color: aliceblue;
+}
+
+/* nav (desktop) */
+@media all and (min-width: 600px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header nav {
+    margin-top: 8px;
+  }
+
+  header nav ul {
+    display: flex;
+    padding left: 0;
+    list-style: none;
+  }
+
+  header nav ul li a:hover {
+    color: #16E0BD;
+  }
+
+}
+
+/* Groups & Items  (Desktop) */
+@media all and (min-width: 600px) {
+  section {
+    padding: 5%;
+  }
+
+  .group {
+    flex-direction: column;
+  }
+
+  /*list style (desktop) */
+  @media all and (min-width: 600px) {
+
+    ul,
+    ol {
+      list-style-type: none;
+    }
+
+    li {
+      font-size: 25px;
+    }
+  }
+
+  /*paragraph (desktop) */
+  @media all and (min-width: 600px) {
+    p {
+      font-size: 25px;
+    }
+  }
+
+  /*header (desktop) */
+  @media all and (min-width: 600px) {
+    header h3 {
+      font-size: 35px;
+    }
+  }
+
+  /*heading 2 (desktop) */
+  @media all and (min-width: 600px) {
+    h2 {
+      font-size: 40px;
+    }
+  }
+
+  /*heading 1 (desktop) */
+  @media all and (min-width: 600px) {
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  /* logo (desktop) */
+  @media all and (min-width: 600px) {
+    .logo {
+      font-size: 70px;
+      padding-top: 80px;
+    }
+  }
+
+  /* contact form (desktop) */
+  @media all and (min-width: 600px) {
+    form label {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+  }
